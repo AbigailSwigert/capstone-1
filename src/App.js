@@ -1,25 +1,32 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { Fragment } from 'react';
 import './App.css';
+import data from './item-data.json';
+import Header from './Components/Header'
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
+
+  const newData = data.map( (data) => {
+    return (
+        <a key={data.id} href='#' >
+          <div className='product-card' >
+            <img src={process.env.PUBLIC_URL + data.img} alt={data.imgAlt} className='product-img' />
+            <div className='product-info'>
+              <p>{data.name}</p>
+              <p className='author'>By: {data.author}</p>
+              <p>${data.price}</p>
+            </div>
+          </div>
         </a>
-      </header>
-    </div>
+    )
+  })
+
+  return (
+    <Fragment>
+      <Header />
+      <div className='products' >
+        {newData}
+      </div>
+    </Fragment>
   );
 }
 
