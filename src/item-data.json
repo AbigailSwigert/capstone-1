@@ -8,7 +8,8 @@
         "publisher" : "Beacon Press",
         "category" : ["self help", "antiracism", "non-fiction", "non fiction"],
         "img" : "./image-assets/White Fragility- Robin Diangelo.jpg",
-        "imgAlt" : "Book cover of: White Fragility: Why It's So Hard for White People to Talk about Racism"
+        "imgAlt" : "Book cover of: White Fragility: Why It's So Hard for White People to Talk about Racism",
+        "stock" : 10
     },
     {
         "id" : 2,
@@ -19,7 +20,8 @@
         "publisher" : "Scholastic Inc",
         "category" : ["science fiction", "thriller", "adventure", "teen", "fiction"],
         "img" : "./image-assets/Ballad of Songbirds and Snakes- Suzanne Collins.jpg",
-        "imgAlt" : "Book cover of: The Ballad of Songbirds and Snakes"
+        "imgAlt" : "Book cover of: The Ballad of Songbirds and Snakes",
+        "stock" : 6
     },
     {
         "id" : 3,
@@ -30,7 +32,8 @@
         "publisher" : "Random House Publishing Group",
         "category" : ["antiracism", "autobiography", "non-fiction", "non fiction"],
         "img" : "./image-assets/How To Be An Antiracist- Ibram X Kendi.jpg",
-        "imgAlt" : "Book cover of: How to Be an Antiracist"
+        "imgAlt" : "Book cover of: How to Be an Antiracist",
+        "stock" : 3
     },
     {
         "id" : 4,
@@ -41,7 +44,8 @@
         "publisher" : "The New Press",
         "category" : ["thesis", "non-fiction", "non fiction", "antiracism"],
         "img" : "./image-assets/New Jim Crow- Michelle Alexander.jpg",
-        "imgAlt" : "Book cover of: The New Jim Crow: Mass Incarceration in the Age of Colorblindness"
+        "imgAlt" : "Book cover of: The New Jim Crow: Mass Incarceration in the Age of Colorblindness",
+        "stock" : 0
     },
     {
         "id" : 5,
@@ -52,7 +56,8 @@
         "publisher" : "Random House Publishing Group",
         "category" : ["biography", "autobiography", "antiracism", "non-fiction", "non fiction"],
         "img" : "./image-assets/Between The World And Me- Ta-Nehisi Coates.jpg",
-        "imgAlt" : "Book cover of: Between the World and Me"
+        "imgAlt" : "Book cover of: Between the World and Me",
+        "stock" : 5
     },
     {
         "id" : 6,
@@ -63,7 +68,8 @@
         "publisher" : "Basic Books",
         "category" : ["antiracism", "non-fiction", "non fiction"],
         "img" : "./image-assets/Talk About Race- Ijeoma Oluo.jpg",
-        "imgAlt" : "Book cover of: So You Want to Talk about Race"
+        "imgAlt" : "Book cover of: So You Want to Talk about Race",
+        "stock" : 1
     },
     {
         "id" : 7,
@@ -74,7 +80,8 @@
         "publisher" : "Sourcebooks",
         "category" : ["self help", "antiracism", "non-fiction", "non fiction"],
         "img" : "./image-assets/Me And White Supremacy- Layla Saad.jpg",
-        "imgAlt" : "Book cover of: Me and White Supremacy: Combat Racism, Change the World, and Become a Good Ancestor"
+        "imgAlt" : "Book cover of: Me and White Supremacy: Combat Racism, Change the World, and Become a Good Ancestor",
+        "stock" : 7
     },
     {
         "id" : 8,
@@ -85,7 +92,8 @@
         "publisher" : "Random House Publishing Group",
         "category" : ["biography", "autobiography", "antiracism", "non-fiction", "non fiction"],
         "img" : "./image-assets/Just Mercy- Bryan Stevenson.jpg",
-        "imgAlt" : "Book cover of: Just Mercy: A Story of Justice and Redemption"
+        "imgAlt" : "Book cover of: Just Mercy: A Story of Justice and Redemption",
+        "stock" : 2
     },
     {
         "id" : 9,
@@ -96,7 +104,8 @@
         "publisher" : "Liveright Publishing Corporation",
         "category" : ["non-fiction", "non fiction", "antiracism"],
         "img" : "./image-assets/The Color of Law- Richard Rothstein.jpg",
-        "imgAlt" : "Book cover of: The Color of Law: A Forgotten History of How Our Government Segregated America"
+        "imgAlt" : "Book cover of: The Color of Law: A Forgotten History of How Our Government Segregated America",
+        "stock" : 8
     },
     {
         "id" : 10,
@@ -107,6 +116,7 @@
         "publisher" : "The Crown Publishing Group",
         "category" : ["biography", "autobiography", "non-fiction", "non fiction", "christian", "antiracism"],
         "img" : "./image-assets/Im Still Here- Austin Channing Brown.jpg",
-        "imgAlt" : "Book cover of: I'm Still Here: Black Dignity in a World Made for Whiteness"
+        "imgAlt" : "Book cover of: I'm Still Here: Black Dignity in a World Made for Whiteness",
+        "stock" : 4
     }
 ]
