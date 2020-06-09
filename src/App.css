@@ -152,6 +152,7 @@ h1 {
 
 hr {
   border: 1px solid #F8584B;
+  width: 50vw;
 }
 
 .empty-cart {

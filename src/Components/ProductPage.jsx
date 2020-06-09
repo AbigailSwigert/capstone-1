@@ -1,7 +1,10 @@
 import React from 'react';
 import data from '../item-data.json';
 
-const updateData = data.map( (data) => {
+
+export default function ProductPage({newData, setNewData}) {
+
+  newData = data.map( (data) => {
     return (
       <div className='product-card' key={data.id} >
         <img src={process.env.PUBLIC_URL + data.img} alt={data.imgAlt} className='product-img' />
@@ -16,4 +19,9 @@ const updateData = data.map( (data) => {
   });
 
 
-export default updateData;
+  return(
+    <div className='products' >
+      {newData}
+    </div>
+  )
+}
