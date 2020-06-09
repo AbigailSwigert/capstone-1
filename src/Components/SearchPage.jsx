@@ -1,7 +1,7 @@
 import React from 'react';
 import data from '../item-data.json';
 
-export default function SearchPage({newData, searchInput, setNewData}) {
+export default function SearchPage({searchInput}) {
 
     const results = data.filter( data => data.name.toLowerCase().includes(searchInput.toLowerCase()));
     const searchData = results.map( (data) => {

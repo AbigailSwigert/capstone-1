@@ -1,9 +1,7 @@
-import React, {useState} from 'react';
+import React from 'react';
 import {Link, useHistory} from 'react-router-dom';
-import data from '../item-data.json';
-import SearchPage from './SearchPage';
 
-export default function Header({setNewData, searchInput, setSearchInput}) {
+export default function Header({searchInput, setSearchInput}) {
 
     let history = useHistory();
 
@@ -11,7 +9,6 @@ export default function Header({setNewData, searchInput, setSearchInput}) {
 
     const handleSearch = (e) => {
         if (e.key === 'Enter') {
-            setSearchInput(e.target.value)
             history.push('/searchpage')
         }
     };

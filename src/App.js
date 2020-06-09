@@ -19,7 +19,7 @@ function App() {
         <Route path='/' exact render={(props) => <ProductPage {...props} newData={newData} setNewData={setNewData} />} />
         <Route path='/productspage' component={ProductPage} />
         <Route path='/shoppingcart' component={ShoppingCart}/>
-        <Route path='/searchpage' render={(props) => <SearchPage {...props} setNewData={setNewData} searchInput={searchInput} setNewData={setNewData} />} />
+        <Route path='/searchpage' render={(props) => <SearchPage {...props} setNewData={setNewData} searchInput={searchInput} />} />
       </Switch>
     </Router>
   );

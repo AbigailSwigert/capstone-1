@@ -2,7 +2,7 @@ import React from 'react';
 import data from '../item-data.json';
 
 
-export default function ProductPage({newData, setNewData}) {
+export default function ProductPage({newData}) {
 
   newData = data.map( (data) => {
     return (
