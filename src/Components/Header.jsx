@@ -2,7 +2,7 @@ import React from 'react';
 import {Link, useHistory} from 'react-router-dom';
 import {DebounceInput} from 'react-debounce-input';
 
-export default function Header({searchInput, setSearchInput}) {
+export default function Header({searchInput, setSearchInput, itemCount, display}) {
 
     let history = useHistory();
 
@@ -22,14 +22,15 @@ export default function Header({searchInput, setSearchInput}) {
         <nav className='nav' >
             <Link to='/productspage' onClick={clearSearch} >
                 <div className='page-icon'>
-                    <img src={process.env.PUBLIC_URL + './image-assets/products-page.png'} className='menu-icon' alt='Products Page Icon' title='Products Page' />
                     <p className='page-name' >Products Page</p>
+                    <img src={process.env.PUBLIC_URL + './image-assets/products-page.png'} className='menu-icon' alt='Products Page Icon' title='Products Page' />
                 </div>
             </Link>
             <Link to='shoppingcart' onClick={clearSearch} >
                 <div className='page-icon'>
-                    <img src={process.env.PUBLIC_URL + './image-assets/shopping-cart.png'} className='menu-icon' alt='Shopping Cart Page Icon' title='Shopping Cart' />
+                    <div className='item-count' style={display} >{itemCount}</div>
                     <p className='page-name' >Shopping Cart</p>
+                    <img src={process.env.PUBLIC_URL + './image-assets/shopping-cart.png'} className='menu-icon' alt='Shopping Cart Page Icon' title='Shopping Cart' />
                 </div>
             </Link>
             <DebounceInput type='text' placeholder='Search...' className='search-bar' debounceTimeout={-1} value={searchInput} onChange={handleSearchInputChange} onKeyDown={handleSearch} />

@@ -12,14 +12,18 @@ function App() {
   const [newData, setNewData] = useState([data]);
   const [searchInput, setSearchInput] = useState('');
   const [shoppingCart, setShoppingCart] = useState([]);
+  const [itemCount, setItemCount] = useState(0);
+  const [displayCount, setDisplayCount] = useState({visibility: 'hidden'})
 
   const addToCart = (obj) => {
-    setShoppingCart(shoppingCart.concat(obj))
+    setShoppingCart(shoppingCart.concat(obj));
+    setItemCount(itemCount + 1)
+    setDisplayCount({visibility:'visible'})
   }
 
   return (
     <Router>
-      <Header setNewData={setNewData} searchInput={searchInput} setSearchInput={setSearchInput} />
+      <Header setNewData={setNewData} searchInput={searchInput} setSearchInput={setSearchInput} itemCount={itemCount} display={displayCount} />
       <Switch>
         <Route path='/' exact render={(props) => <ProductPage {...props} newData={newData} />} />
         <Route path='/productspage' render={(props) => <ProductPage {...props} newData={newData} addToCart={addToCart}  />} />
