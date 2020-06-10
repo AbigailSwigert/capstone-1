@@ -9,7 +9,8 @@
         "category" : ["self help", "antiracism", "non-fiction", "non fiction"],
         "img" : "./image-assets/White Fragility- Robin Diangelo.jpg",
         "imgAlt" : "Book cover of: White Fragility: Why It's So Hard for White People to Talk about Racism",
-        "stock" : 10
+        "stock" : 10,
+        "count" : 1
     },
     {
         "id" : 2,
@@ -21,7 +22,8 @@
         "category" : ["science fiction", "thriller", "adventure", "teen", "fiction"],
         "img" : "./image-assets/Ballad of Songbirds and Snakes- Suzanne Collins.jpg",
         "imgAlt" : "Book cover of: The Ballad of Songbirds and Snakes",
-        "stock" : 6
+        "stock" : 6,
+        "count" : 1
     },
     {
         "id" : 3,
@@ -33,7 +35,8 @@
         "category" : ["antiracism", "autobiography", "non-fiction", "non fiction"],
         "img" : "./image-assets/How To Be An Antiracist- Ibram X Kendi.jpg",
         "imgAlt" : "Book cover of: How to Be an Antiracist",
-        "stock" : 3
+        "stock" : 3,
+        "count" : 1
     },
     {
         "id" : 4,
@@ -45,7 +48,8 @@
         "category" : ["thesis", "non-fiction", "non fiction", "antiracism"],
         "img" : "./image-assets/New Jim Crow- Michelle Alexander.jpg",
         "imgAlt" : "Book cover of: The New Jim Crow: Mass Incarceration in the Age of Colorblindness",
-        "stock" : 0
+        "stock" : 0,
+        "count" : 1
     },
     {
         "id" : 5,
@@ -57,7 +61,8 @@
         "category" : ["biography", "autobiography", "antiracism", "non-fiction", "non fiction"],
         "img" : "./image-assets/Between The World And Me- Ta-Nehisi Coates.jpg",
         "imgAlt" : "Book cover of: Between the World and Me",
-        "stock" : 5
+        "stock" : 5,
+        "count" : 1
     },
     {
         "id" : 6,
@@ -69,7 +74,8 @@
         "category" : ["antiracism", "non-fiction", "non fiction"],
         "img" : "./image-assets/Talk About Race- Ijeoma Oluo.jpg",
         "imgAlt" : "Book cover of: So You Want to Talk about Race",
-        "stock" : 1
+        "stock" : 1,
+        "count" : 1
     },
     {
         "id" : 7,
@@ -81,7 +87,8 @@
         "category" : ["self help", "antiracism", "non-fiction", "non fiction"],
         "img" : "./image-assets/Me And White Supremacy- Layla Saad.jpg",
         "imgAlt" : "Book cover of: Me and White Supremacy: Combat Racism, Change the World, and Become a Good Ancestor",
-        "stock" : 7
+        "stock" : 7,
+        "count" : 1
     },
     {
         "id" : 8,
@@ -93,7 +100,8 @@
         "category" : ["biography", "autobiography", "antiracism", "non-fiction", "non fiction"],
         "img" : "./image-assets/Just Mercy- Bryan Stevenson.jpg",
         "imgAlt" : "Book cover of: Just Mercy: A Story of Justice and Redemption",
-        "stock" : 2
+        "stock" : 2,
+        "count" : 1
     },
     {
         "id" : 9,
@@ -105,7 +113,8 @@
         "category" : ["non-fiction", "non fiction", "antiracism"],
         "img" : "./image-assets/The Color of Law- Richard Rothstein.jpg",
         "imgAlt" : "Book cover of: The Color of Law: A Forgotten History of How Our Government Segregated America",
-        "stock" : 8
+        "stock" : 8,
+        "count" : 1
     },
     {
         "id" : 10,
@@ -117,6 +126,7 @@
         "category" : ["biography", "autobiography", "non-fiction", "non fiction", "christian", "antiracism"],
         "img" : "./image-assets/Im Still Here- Austin Channing Brown.jpg",
         "imgAlt" : "Book cover of: I'm Still Here: Black Dignity in a World Made for Whiteness",
-        "stock" : 4
+        "stock" : 4,
+        "count" : 1
     }
 ]

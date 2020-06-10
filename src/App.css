@@ -176,6 +176,7 @@ hr {
 }
 
 .empty-cart {
+  color: white;
   margin-top: 80px;
 }
 
@@ -199,7 +200,7 @@ hr {
 .item-info {
   margin-left: 20px;
   text-align: left;
-  width: 80%;
+  width: 70%;
 }
 
 .cart-item-name {
@@ -216,4 +217,32 @@ hr {
   margin: 0;
 }
 
+.cart-item-price {
+  color: white;
+  margin: 5px 0;
+}
 
+.item-count-btn {
+  background-color: #00eaff;
+  border: none;
+  border-radius: 10%;
+  width: 30px;
+  height: 20px;
+  margin: 0 5px;
+}
+
+.single-item-count {
+  width: 50px;
+  border: none;
+  height: 20px;
+  text-align: center;
+}
+
+.remove-item {
+  background-color: #00eaff;
+  height: 20px;
+  width: 120px;
+  border-radius: 5px;
+  border: none;
+  margin: 10px 0;
+}
