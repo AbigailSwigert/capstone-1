@@ -1,8 +1,6 @@
-import React, {useState} from 'react';
+import React from 'react';
 
-export default function ShoppingCart() {
-
-    const [shoppingCart, setShoppingCart] = useState([]);
+export default function ShoppingCart({shoppingCart}) {
 
     const emptyCart = () => {
         if (shoppingCart.length === 0) {

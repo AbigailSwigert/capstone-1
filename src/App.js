@@ -11,14 +11,19 @@ function App() {
 
   const [newData, setNewData] = useState([data]);
   const [searchInput, setSearchInput] = useState('');
+  const [shoppingCart, setShoppingCart] = useState([]);
+
+  const addToCart = (obj) => {
+    setShoppingCart(shoppingCart.concat(obj))
+  }
 
   return (
     <Router>
       <Header setNewData={setNewData} searchInput={searchInput} setSearchInput={setSearchInput} />
       <Switch>
-        <Route path='/' exact render={(props) => <ProductPage {...props} newData={newData} setNewData={setNewData} />} />
-        <Route path='/productspage' component={ProductPage} />
-        <Route path='/shoppingcart' component={ShoppingCart}/>
+        <Route path='/' exact render={(props) => <ProductPage {...props} newData={newData} />} />
+        <Route path='/productspage' render={(props) => <ProductPage {...props} newData={newData} addToCart={addToCart}  />} />
+        <Route path='/shoppingcart' render={(props) => <ShoppingCart {...props} shoppingCart={shoppingCart} /> } />
         <Route path='/searchpage' render={(props) => <SearchPage {...props} setNewData={setNewData} searchInput={searchInput} />} />
       </Switch>
     </Router>

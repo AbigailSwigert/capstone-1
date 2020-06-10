@@ -2,7 +2,7 @@ import React from 'react';
 import data from '../item-data.json';
 
 
-export default function ProductPage({newData}) {
+export default function ProductPage({newData, addToCart}) {
 
   newData = data.map( (data) => {
     return (
@@ -12,7 +12,7 @@ export default function ProductPage({newData}) {
           <p>{data.name}</p>
           <p className='author'>By: {data.author}</p>
           <p>${data.price}</p>
-          <button className='cart-btn' >Add to Cart</button>
+          <button className='cart-btn' onClick={() => addToCart(data)} >Add to Cart</button>
         </div>
       </div>
     )
