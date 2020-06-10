@@ -1,7 +1,7 @@
 import React from 'react';
 import data from '../item-data.json';
 
-export default function SearchPage({searchInput}) {
+export default function SearchPage({searchInput, addToCart}) {
 
     const results = data.filter( data => data.name.toLowerCase().includes(searchInput.toLowerCase()));
     const searchData = results.map( (data) => {
@@ -13,7 +13,7 @@ export default function SearchPage({searchInput}) {
                     <p className='author'>By: {data.author}</p>
                     <p>${data.price}</p>
                 </div>
-                <button className='cart-btn' >Add to Cart</button>
+                <button className='cart-btn' onClick={() => addToCart(data)} >Add to Cart</button>
             </div>
         )
     })

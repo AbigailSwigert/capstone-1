@@ -25,10 +25,10 @@ function App() {
     <Router>
       <Header setNewData={setNewData} searchInput={searchInput} setSearchInput={setSearchInput} itemCount={itemCount} display={displayCount} />
       <Switch>
-        <Route path='/' exact render={(props) => <ProductPage {...props} newData={newData} />} />
-        <Route path='/productspage' render={(props) => <ProductPage {...props} newData={newData} addToCart={addToCart}  />} />
-        <Route path='/shoppingcart' render={(props) => <ShoppingCart {...props} shoppingCart={shoppingCart} /> } />
-        <Route path='/searchpage' render={(props) => <SearchPage {...props} setNewData={setNewData} searchInput={searchInput} />} />
+        <Route path='/' exact render={(props) => <ProductPage {...props} newData={newData} addToCart={addToCart} />} />
+        <Route path='/productspage' render={(props) => <ProductPage {...props} newData={newData} addToCart={addToCart} />} />
+        <Route path='/shoppingcart' render={(props) => <ShoppingCart {...props} shoppingCart={shoppingCart} setShoppingCart={setShoppingCart} itemCount={itemCount} setItemCount={setItemCount} /> } />
+        <Route path='/searchpage' render={(props) => <SearchPage {...props} setNewData={setNewData} searchInput={searchInput} addToCart={addToCart} />} />
       </Switch>
     </Router>
   );

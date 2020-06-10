@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function ShoppingCart({shoppingCart}) {
+export default function ShoppingCart({shoppingCart, setShoppingCart, setItemCount, itemCount}) {
 
     const emptyCart = () => {
         if (shoppingCart.length === 0) {
@@ -10,9 +10,12 @@ export default function ShoppingCart({shoppingCart}) {
         }
     }
 
-    const cart = shoppingCart.map( item => {
+    const deleteItem = (itemId) => {
+        setShoppingCart(shoppingCart.filter((item) => item.id !== itemId));
+        setItemCount(itemCount - 1)
+    }
 
-        const handleCountChange = e => item.count = e.target.value
+    const cart = shoppingCart.map( (item) => {
 
         return(
             <div className='cart-item' key={item.id} >
@@ -24,10 +27,12 @@ export default function ShoppingCart({shoppingCart}) {
                 </div>
                 <div className='count-n-price'>
                     <p className='cart-item-price'>${item.price}</p>
-                    <button className='item-count-btn' id='decrement' onClick={() => item.count - 1} >-</button>
-                    <input className='single-item-count' value={item.count} onChange={handleCountChange} />
-                    <button className='item-count-btn' id='increment' onClick={() => item.count + 1} >+</button>
-                    <button className='remove-item'>Remove this Item</button>
+                    <div>
+                        <button className='item-count-btn' id='decrement' >-</button>
+                        <input className='single-item-count' value={item.qty} />
+                        <button className='item-count-btn' id='increment' >+</button>
+                    </div>
+                    <button className='remove-item' onClick={() => deleteItem(item.id)} >Remove this Item</button>
                 </div>
             </div>
         )
