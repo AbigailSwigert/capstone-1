@@ -7,6 +7,7 @@ import ShoppingCart from './Components/ShoppingCart';
 import SearchPage from './Components/SearchPage';
 import Checkout from './Components/Checkout';
 import ThankYou from './Components/ThankYou';
+import HomePage from './Components/HomePage';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 function App() {
@@ -38,7 +39,7 @@ function App() {
     <Router>
       <Header setNewData={setNewData} searchInput={searchInput} setSearchInput={setSearchInput} itemCount={itemCount} display={displayCount} />
       <Switch>
-        <Route path='/' exact render={(props) => <ProductPage {...props} newData={newData} addToCart={addToCart} />} />
+        <Route path='/' exact render={(props) => <HomePage {...props} />} />
         <Route path='/productspage' render={(props) => <ProductPage {...props} newData={newData} addToCart={addToCart} />} />
         <Route path='/shoppingcart' render={(props) => <ShoppingCart {...props} shoppingCart={shoppingCart} setShoppingCart={setShoppingCart} itemCount={itemCount} setItemCount={setItemCount} setDisplayCount={setDisplayCount} total={total} updateTotal={updateTotal} deleteAll={deleteAll} /> } />
         <Route path='/searchpage' render={(props) => <SearchPage {...props} setNewData={setNewData} searchInput={searchInput} addToCart={addToCart} />} />

@@ -18,7 +18,9 @@ export default function Header({searchInput, setSearchInput, itemCount, display}
 
    return (
     <header className="App-header">
-        <img src={process.env.PUBLIC_URL + './image-assets/n33dful-logo-01.png'} alt='n33dful.com logo' className='logo' />
+        <Link to='/' className='logo'>
+            <img src={process.env.PUBLIC_URL + './image-assets/n33dful-logo-01.png'} alt='n33dful.com logo' />
+        </Link>
         <nav className='nav' >
             <Link to='/productspage' onClick={clearSearch} >
                 <div className='page-icon'>
