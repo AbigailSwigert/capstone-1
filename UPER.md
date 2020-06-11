@@ -64,11 +64,7 @@
     4. Reflection / Refactor
 </h2>
 
-*
-*
-*
-*
-*
-*
-*
-*
+* Spend less time on design, to make sure you have plenty of time to reach MVP
+* Comment on code so it can be read and understood faster
+* Use better variable names, just because you know what they are doesn't mean other people can figure it out.
+* Slow down when presenting, don't speed through it
