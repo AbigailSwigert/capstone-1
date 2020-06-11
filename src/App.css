@@ -162,7 +162,7 @@ a, a:hover, a:visited  {
   text-align: center;
   display: flex;
   flex-direction: column;
-  max-width: 1555px;
+  max-width: 50vw;
   margin: auto;
 }
 
@@ -201,6 +201,7 @@ hr {
   margin-left: 20px;
   text-align: left;
   width: 70%;
+  color: white;
 }
 
 .cart-item-name {
@@ -242,21 +243,133 @@ hr {
   text-align: center;
 }
 
-.count-n-price {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 .remove-item {
   background-color: white;
-  height: 20px;
+  height: 30px;
   width: 120px;
   border-radius: 5px;
   border: none;
   margin: 10px 0;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .remove-item:hover {
   background-color: #00eaff;
+}
+
+.remove-all-btn {
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  width: 250px;
+  height: 40px;
+  margin: 20px auto;
+  font-family: 'Montserrat', sans-serif;
+  font-size: medium;
+}
+
+.remove-all-btn:hover {
+  background-color: #00eaff;
+}
+
+.checkout {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.total {
+  color: white;
+  font-size: x-large;
+  text-align: left;
+}
+
+.buy-btn {
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  width: 250px;
+  height: 40px;
+  margin: 20px 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: medium;
+}
+
+.buy-btn:hover {
+  background-color: #F8584B;
+}
+
+#checkout {
+  width: 50vw;
+  margin: auto;
+  color: white;
+  display: flex;
+}
+
+.checkout-form {
+  width: 50%;
+}
+
+.checkout-input {
+  width: 80%;
+  height: 30px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 2px solid white;
+}
+
+.checkout-input:focus {
+  border: 2px solid #F8584B;
+}
+
+.payment {
+  width: 50%;
+  text-align: center;
+}
+
+.smaller-input {
+  width: 100%;
+  height: 30px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 2px solid white;
+}
+
+.smaller-input:focus {
+  border: 2px solid #F8584B;
+}
+
+#exp-sec {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.order-btn {
+  background-color: #F8584B;
+  border: none;
+  border-radius: 5px;
+  width: 250px;
+  height: 40px;
+  margin: 20px auto;
+  font-family: 'Montserrat', sans-serif;
+  font-size: medium;
+}
+
+.order-btn:hover {
+  background-color: #00eaff;
+}
+
+.thank-you {
+  color: white;
+  margin: auto;
+  text-align: center;
+}
+
+.thumbs-up {
+  max-width: 514px;
+  max-height: 514px;
+  width: 50vw;
+  height: auto;
 }

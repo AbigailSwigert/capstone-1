@@ -26,7 +26,7 @@ export default function Header({searchInput, setSearchInput, itemCount, display}
                     <img src={process.env.PUBLIC_URL + './image-assets/products-page.png'} className='menu-icon' alt='Products Page Icon' title='Products Page' />
                 </div>
             </Link>
-            <Link to='shoppingcart' onClick={clearSearch} >
+            <Link to='/shoppingcart' onClick={clearSearch} >
                 <div className='page-icon'>
                     <div className='item-count' style={display} >{itemCount}</div>
                     <p className='page-name' >Shopping Cart</p>
