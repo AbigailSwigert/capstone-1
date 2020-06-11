@@ -17,12 +17,19 @@ body {
 }
 
 .logo {
-  max-height: 88px;
-  max-width: 520px;
   width: 80vw;
   height: auto;
+  max-height: 88px;
+  max-width: 520px;
   margin: auto;
   padding-left: 270px;
+}
+
+.logo-img {
+  width: 80vw;
+  height: auto;
+  max-height: 88px;
+  max-width: 520px;
 }
 
 .nav {
@@ -30,7 +37,6 @@ body {
   flex-direction: column;
   align-items: flex-end;
   margin-right: 20px;
-  position: relative;
 }
 
 .page-icon {
@@ -41,6 +47,7 @@ body {
   background-color: #F8584B;
   display: flex;
   align-items: center;
+  position: relative;
 }
 
 .page-icon:hover{
@@ -70,7 +77,7 @@ body {
   background-color: #00eaff;
   border-radius: 50%;
   position: absolute;
-  bottom: 75px;
+  bottom: 25px;
   right: 240px;
   color: black;
   font-size: small;
@@ -113,10 +120,9 @@ body {
 }
 
 .product-img {
-  max-width: 220px;
-  max-height: 330px;
+  width: 220px;
+  height: 330px;
   object-fit: cover;
-  height: auto;
   margin-bottom: 10px;
 }
 
@@ -214,7 +220,11 @@ hr {
   margin: 0;
 }
 
-.cart-item-author {
+.cart-item-isbn {
+  margin: 0;
+}
+
+.cart-item-pub {
   margin: 0;
 }
 
@@ -365,6 +375,7 @@ hr {
   color: white;
   margin: auto;
   text-align: center;
+  width: 90vw;
 }
 
 .thumbs-up {
@@ -383,4 +394,207 @@ hr {
   width: 80vw;
   margin: 20px auto;
   text-align: center;
+}
+
+.empty-results {
+  color: white;
+}
+
+.img-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 10px auto;
+}
+
+.home-imgs {
+  max-width: 220;
+  max-height: 330;
+  width: 20vw;
+  height: auto;
+  min-width: 125px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 2000px) {
+  .cart-item {
+    width: 70vw;
+    height: 150px;
+  }
+
+  .shopping-cart {
+    max-width: 70vw;
+  }
+
+  .checkout {
+    width: 50vw;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  #checkout {
+    width: 80vw;
+  }
+}
+
+@media screen and (max-width: 1065px) {
+  .App-header {
+    flex-direction: column;
+  }
+
+  .logo {
+    padding-left: 0;
+  }
+
+  .nav {
+    margin-right: 0;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    margin-bottom: 20px;
+  }
+
+  .page-icon {
+    margin-bottom: 0;
+  }
+
+  h1 {
+    font-size: large;
+  }
+
+  .item-count {
+    bottom: 30px;
+    right: 235px;
+  }
+}
+
+@media screen and (max-width: 935px) {
+  .nav {
+    justify-content: center;
+  }
+
+  .page-icon {
+    width: 40px;
+    position: relative;
+    margin: 0 20px 0 0;
+  }
+
+  .menu-icon {
+    position: absolute;
+  }
+
+  .item-count {
+    right: 30px;
+  }
+
+  .page-name {
+    font-size: xx-small;
+    visibility: hidden;
+  }
+
+  #blmText {
+    width: 90vw;
+    font-size: small;
+  }
+
+  .products {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .product-card {
+    width: 90vw;
+    height: 230px;
+    margin: 20px;
+    border-bottom: 2px solid #F8584B;
+    position: relative;
+    display: flex;
+  }
+  
+  .product-img {
+    width: 150px;
+    height: 220px;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+
+  .product-info {
+    margin-left: 20px;
+  }
+
+  .cart-item-name {
+    font-size: small;
+  }
+
+  .count-n-price{
+    margin-right: 20px;
+  }
+
+  .cart-item-isbn {
+    font-size: small;
+  }
+  
+  .cart-item-pub {
+    font-size: small;
+  }
+
+  #checkout {
+    flex-direction: column;
+    width: 320px;
+  }
+
+  .checkout-form{
+    text-align: center;
+    margin: auto;
+    width: 320px;
+  }
+
+  .payment {
+    margin: auto;
+    width: 320px;
+  }
+
+  .checkout-input {
+    width: 300px;
+  }
+
+  #exp-sec {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .cart-item {
+    width: 95vw;
+    height: 100px;
+  }
+
+  .shopping-cart {
+    max-width: 95vw;
+  }
+
+  .checkout {
+    width: 90vw;
+    margin: auto;
+  }
+
+  .cart-item-name {
+    font-size: x-small;
+  }
+
+  .cart-item-stock {
+    font-size: xx-small;
+  }
+
+  .cart-item-isbn {
+    font-size: 0;
+  }
+  
+  .cart-item-pub {
+    font-size: 0;
+  }
 }

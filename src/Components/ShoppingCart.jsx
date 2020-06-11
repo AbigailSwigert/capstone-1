@@ -68,8 +68,8 @@ export default function ShoppingCart({shoppingCart, setShoppingCart, setItemCoun
                 <img src={process.env.PUBLIC_URL + item.img} alt={item.imgAlt} className='cart-item-img' />
                 <div className='item-info'>
                     <h3 className='cart-item-name'>{item.name}</h3>
-                    <p className='cart-item-author'>ISBN: {item.isbn}</p>
-                    <p className='cart-item-author'>Publisher: {item.publisher}</p>
+                    <p className='cart-item-isbn'>ISBN: {item.isbn}</p>
+                    <p className='cart-item-pub'>Publisher: {item.publisher}</p>
                     <p className='cart-item-stock'>{item.stock} left in stock</p>
                 </div>
                 <div className='count-n-price'>
