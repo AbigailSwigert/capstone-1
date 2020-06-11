@@ -46,14 +46,19 @@
     3. Executing the Plan
 </h2>
 
-*
-*
-*
-*
-*
-*
-*
-*
+* Decided on book store
+* Designed n33dful.com logo
+* Used Figma to wireframe
+* Gathered inventory data from B&N.com and added all to json file
+* Created and laid out header
+* Created and laid out products page
+* Created Shopping cart page
+* Added search by name functionality
+* Added add to cart functionality
+* Laid out shopping cart page
+* Created and laid out checkout page
+* Added error functionality for out of stock
+* Created and laid out thank you page
 
 <h2>
     4. Reflection / Refactor
