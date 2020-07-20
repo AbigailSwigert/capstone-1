@@ -1,0 +1,122 @@
+[
+    {
+        "id" : 1,
+        "isbn" : 9780807047415,
+        "name" : "White Fragility: Why It's So Hard for White People to Talk about Racism",
+        "price" : 13.99,
+        "author" : "Robin Diangelo",
+        "publisher" : "Beacon Press",
+        "category" : ["self help", "antiracism", "non-fiction", "non fiction"],
+        "img" : "./image-assets/White Fragility- Robin Diangelo.jpg",
+        "imgAlt" : "Book cover of: White Fragility: Why It's So Hard for White People to Talk about Racism",
+        "stock" : 10
+    },
+    {
+        "id" : 2,
+        "isbn" : 9781338635171,
+        "name" : "The Ballad of Songbirds and Snakes (Hunger Games Series Prequel)",
+        "price" : 24.99,
+        "author" : "Suzanne Collins",
+        "publisher" : "Scholastic Inc",
+        "category" : ["science fiction", "thriller", "adventure", "teen", "fiction"],
+        "img" : "./image-assets/Ballad of Songbirds and Snakes- Suzanne Collins.jpg",
+        "imgAlt" : "Book cover of: The Ballad of Songbirds and Snakes",
+        "stock" : 6
+    },
+    {
+        "id" : 3,
+        "isbn" : 9780525509288,
+        "name" : "How to Be an Antiracist",
+        "price" : 23.99,
+        "author" : "Ibram X. Kendi",
+        "publisher" : "Random House Publishing Group",
+        "category" : ["antiracism", "autobiography", "non-fiction", "non fiction"],
+        "img" : "./image-assets/How To Be An Antiracist- Ibram X Kendi.jpg",
+        "imgAlt" : "Book cover of: How to Be an Antiracist",
+        "stock" : 3
+    },
+    {
+        "id" : 4,
+        "isbn" : 9781620971932,
+        "name" : "The New Jim Crow: Mass Incarceration in the Age of Colorblindness",
+        "price" : 16.99,
+        "author" : "Michelle Alexander",
+        "publisher" : "The New Press",
+        "category" : ["thesis", "non-fiction", "non fiction", "antiracism"],
+        "img" : "./image-assets/New Jim Crow- Michelle Alexander.jpg",
+        "imgAlt" : "Book cover of: The New Jim Crow: Mass Incarceration in the Age of Colorblindness",
+        "stock" : 0
+    },
+    {
+        "id" : 5,
+        "isbn" : 9780812993547,
+        "name" : "Between the World and Me",
+        "price" : 23.39,
+        "author" : "Ta-Nehisi Coates",
+        "publisher" : "Random House Publishing Group",
+        "category" : ["biography", "autobiography", "antiracism", "non-fiction", "non fiction"],
+        "img" : "./image-assets/Between The World And Me- Ta-Nehisi Coates.jpg",
+        "imgAlt" : "Book cover of: Between the World and Me",
+        "stock" : 5
+    },
+    {
+        "id" : 6,
+        "isbn" : 9781580058827,
+        "name" : "So You Want to Talk about Race",
+        "price" : 15.99,
+        "author" : "Ijeoma Oluo",
+        "publisher" : "Basic Books",
+        "category" : ["antiracism", "non-fiction", "non fiction"],
+        "img" : "./image-assets/Talk About Race- Ijeoma Oluo.jpg",
+        "imgAlt" : "Book cover of: So You Want to Talk about Race",
+        "stock" : 1
+    },
+    {
+        "id" : 7,
+        "isbn" : 9781728209807,
+        "name" : "Me and White Supremacy: Combat Racism, Change the World, and Become a Good Ancestor",
+        "price" : 23.39,
+        "author" : "Layla Saad",
+        "publisher" : "Sourcebooks",
+        "category" : ["self help", "antiracism", "non-fiction", "non fiction"],
+        "img" : "./image-assets/Me And White Supremacy- Layla Saad.jpg",
+        "imgAlt" : "Book cover of: Me and White Supremacy: Combat Racism, Change the World, and Become a Good Ancestor",
+        "stock" : 7
+    },
+    {
+        "id" : 8,
+        "isbn" : 9780812984965,
+        "name" : "Just Mercy: A Story of Justice and Redemption",
+        "price" : 13.99,
+        "author" : "Bryan Stevenson",
+        "publisher" : "Random House Publishing Group",
+        "category" : ["biography", "autobiography", "antiracism", "non-fiction", "non fiction"],
+        "img" : "./image-assets/Just Mercy- Bryan Stevenson.jpg",
+        "imgAlt" : "Book cover of: Just Mercy: A Story of Justice and Redemption",
+        "stock" : 2
+    },
+    {
+        "id" : 9,
+        "isbn" : 9781631494536,
+        "name" : "The Color of Law: A Forgotten History of How Our Government Segregated America",
+        "price" : 15.95,
+        "author" : "Richard Rothstein",
+        "publisher" : "Liveright Publishing Corporation",
+        "category" : ["non-fiction", "non fiction", "antiracism"],
+        "img" : "./image-assets/The Color of Law- Richard Rothstein.jpg",
+        "imgAlt" : "Book cover of: The Color of Law: A Forgotten History of How Our Government Segregated America",
+        "stock" : 8
+    },
+    {
+        "id" : 10,
+        "isbn" : 9781524760854,
+        "name" : "I'm Still Here: Black Dignity in a World Made for Whiteness",
+        "price" : 22.49,
+        "author" : "Austin Channing Brown",
+        "publisher" : "The Crown Publishing Group",
+        "category" : ["biography", "autobiography", "non-fiction", "non fiction", "christian", "antiracism"],
+        "img" : "./image-assets/Im Still Here- Austin Channing Brown.jpg",
+        "imgAlt" : "Book cover of: I'm Still Here: Black Dignity in a World Made for Whiteness",
+        "stock" : 4
+    }
+]
